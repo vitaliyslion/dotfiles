@@ -1,0 +1,6 @@
+#custom-notification {
+  margin: 4px 3px;
+  background-color: @blue; 
+  padding: 0px 10px;
+  border-radius: 8px;
+}

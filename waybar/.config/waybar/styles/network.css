@@ -1,8 +1,6 @@
-@import "colors.css";
-
 #network {
-  background-color: @blue; 
-  margin: 4px 6px;
+  margin: 4px 3px;
+  background-color: @sapphire; 
   padding: 0px 10px;
   border-radius: 8px;
 }
