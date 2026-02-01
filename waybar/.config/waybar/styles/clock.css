@@ -1,0 +1,6 @@
+#clock {
+  margin: 4px 0;
+  background-color: @lavender;
+  padding: 0px 10px;
+  border-radius: 8px;
+}

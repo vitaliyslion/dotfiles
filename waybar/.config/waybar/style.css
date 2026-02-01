@@ -1,0 +1,15 @@
+@import "styles/colors.css";
+@import "styles/workspaces.css";
+@import "styles/window.css";
+@import "styles/clock.css";
+
+* {
+  font-family: MesloLGM Nerd Font; 
+  min-height: 0;
+  font-weight: bold;
+  color: black;
+}
+
+#waybar {
+  background: transparent;
+}

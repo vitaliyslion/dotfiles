@@ -1,0 +1,24 @@
+@import "colors.css";
+
+#workspaces {
+  margin: 4px 0;
+  background-color: @sky;
+  padding: 4px 4px;
+  border-radius: 8px;
+}
+
+#workspaces button {
+  border: none;
+  padding: 0;
+}
+
+#workspaces button label {
+  font-size: 1.3em;
+  font-family: Symbols Nerd Font;
+}
+
+#workspaces button.active label {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+

@@ -1,0 +1,10 @@
+#window {
+  margin: 4px 0;
+  background: @lavender;
+  padding: 4px 10px;
+  border-radius: 8px;
+}
+
+window#waybar.empty #window {
+  background: none;
+}
