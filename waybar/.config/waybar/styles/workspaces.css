@@ -2,23 +2,44 @@
 
 #workspaces {
   margin: 4px 0;
-  background-color: @sky;
-  padding: 4px 4px;
+  padding: 4px 2px;
   border-radius: 8px;
 }
 
 #workspaces button {
   border: none;
-  padding: 0;
+  padding: 2px 4px;
 }
 
 #workspaces button label {
-  font-size: 1.3em;
-  font-family: Symbols Nerd Font;
+  color: @text;
+}
+
+#workspaces button.urgent {
+  background: @red;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+#workspaces button.active {
+  margin-left: 5px;
+  margin-right: 5px;
+  background: @yellow;
 }
 
 #workspaces button.active label {
-  margin-left: 5px;
-  margin-right: 5px;
+  color: @crust;
+}
+
+#workspaces button.urgent label {
+  background: @red;
+}
+
+#workspaces button:hover {
+  background: transparent;
+}
+
+#workspaces button:hover label {
+  text-shadow: none;
 }
 

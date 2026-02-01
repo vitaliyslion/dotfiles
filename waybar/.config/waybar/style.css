@@ -2,14 +2,23 @@
 @import "styles/workspaces.css";
 @import "styles/window.css";
 @import "styles/clock.css";
+@import "styles/network.css";
 
 * {
-  font-family: MesloLGM Nerd Font; 
+  font-family: "Symbols Nerd Font", "MesloLGS Nerd Font Mono";
   min-height: 0;
   font-weight: bold;
-  color: black;
 }
 
-#waybar {
+window#waybar {
   background: transparent;
+  color: @crust;
+}
+
+tooltip {
+  background-color: @surface0;
+}
+
+tooltip * {
+  color: @text;
 }

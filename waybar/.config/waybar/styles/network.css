@@ -1,0 +1,12 @@
+@import "colors.css";
+
+#network {
+  background-color: @blue; 
+  margin: 4px 6px;
+  padding: 0px 10px;
+  border-radius: 8px;
+}
+
+#network.disconnected {
+  background-color: @red;
+}
