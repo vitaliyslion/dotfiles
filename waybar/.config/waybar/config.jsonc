@@ -1,8 +1,9 @@
 {
   "layer": "top",
+  "reload_style_on_change": true,
   "modules-left": ["hyprland/workspaces"],
   "modules-center": ["hyprland/window"],
-  "modules-right": ["network", "custom/notification", "clock"],
+  "modules-right": ["hyprland/language", "network", "custom/notification", "clock"],
   "clock": {
     "format": "  {:%b-%d, %a    %H:%M}",
     "tooltip-format": "<big>{:%Y}</big>\n<tt>{calendar}</tt>",
@@ -37,11 +38,11 @@
     "format-ethernet": "󰤭  Disconnected",
     "format-linked": "{ifname} (No IP) ",
     "format-disconnected": "  Disconnected",
-    "tooltip-format-wifi": "Signal Strenght: {signalStrength}%"
+    "tooltip-format-wifi": "Signal Strength: {signalStrength}%"
   },
   "custom/notification": {
     "tooltip": true,
-    "format": "<span size='16pt'>{icon}</span>",
+    "format": "<span size='14pt'>{icon}</span>",
     "format-icons": {
       "notification": "󱅫",
       "none": "󰂜",
@@ -58,5 +59,9 @@
     "on-click": "swaync-client -t -sw",
     "on-click-right": "swaync-client -d -sw",
     "escape": true
+  },
+  "hyprland/language": {
+    "format-en": "🇺🇸",
+    "format-uk": "🇺🇦",
   }
 }

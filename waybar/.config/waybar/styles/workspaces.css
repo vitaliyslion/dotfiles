@@ -33,6 +33,7 @@
 
 #workspaces button.urgent label {
   background: @red;
+  color: @crust;
 }
 
 #workspaces button:hover {
