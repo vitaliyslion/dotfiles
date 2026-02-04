@@ -24,9 +24,6 @@
     "workspace-taskbar": {
       "enable": true,
     },
-    "window-rewrite": {
-      "class<alacritty>": "HI"
-    }
   },
   "hyprland/window": {
     "icon": true,

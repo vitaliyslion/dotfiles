@@ -1,8 +1,8 @@
 #network {
-  margin: 4px 3px;
+  margin: 2px;
   background-color: @sapphire; 
   padding: 0px 10px;
-  border-radius: 8px;
+  border-radius: 3px;
 }
 
 #network.disconnected {
