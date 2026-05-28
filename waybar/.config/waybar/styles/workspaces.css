@@ -37,10 +37,7 @@
 }
 
 #workspaces button:hover {
-  background: transparent;
-}
-
-#workspaces button:hover label {
-  text-shadow: none;
+  background: inherit;
+  box-shadow: none;
 }
 

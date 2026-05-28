@@ -5,6 +5,8 @@
 @import "styles/network.css";
 @import "styles/notification.css";
 @import "styles/language.css";
+@import "styles/audio.css";
+@import "styles/shutdown.css";
 
 * {
   font-family: "Symbols Nerd Font", "MesloLGS Nerd Font Mono";

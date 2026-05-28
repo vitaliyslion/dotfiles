@@ -1,0 +1,14 @@
+@import "colors.css";
+
+#custom-shutdown {
+  margin: 2px;
+  background-color: @red;
+  color: @crust;
+  padding: 0px 10px;
+  border-radius: 3px;
+  font-size: 14pt;
+}
+
+#custom-shutdown:hover {
+  background-color: @maroon;
+}

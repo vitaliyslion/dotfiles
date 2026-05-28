@@ -1,6 +1,6 @@
-#custom-notification {
+#pulseaudio {
   margin: 2px;
-  background-color: @sapphire; 
+  background-color: @blue;
   padding: 0px 10px;
   border-radius: 3px;
 }
